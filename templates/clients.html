@@ -4,16 +4,6 @@
 
 {% block style %}
 {{ super() }}
-<style>
-    .epid-tooltip {
-        @apply hidden absolute bg-white dark:bg-gray-700 p-3 rounded-lg shadow-xl border dark:border-gray-600 z-10;
-        max-width: 400px;
-        word-break: break-all;
-    }
-    .client-id-cell:hover .epid-tooltip {
-        @apply block;
-    }
-</style>
 {% endblock %}
 
 {% block content %}
